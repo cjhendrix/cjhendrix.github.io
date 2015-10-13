@@ -27,6 +27,12 @@
     color: #ffffff;
     opacity: 0.3;
   }
+  h4 {font-size: 45px; 
+  	font-weight: normal;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #ffffff;
+  }
   h3 {font-size: 45px; 
   	font-weight: normal;
     text-align: center;
@@ -35,9 +41,23 @@
  
   .btn {margin-bottom: 15px;
   	border-radius: 16px;
+  	font-size: 30px;
   }
+
+  .input-lg {font-size: 45px;
+  	height: 60px;
+  	margin-bottom: 15px;}
  
-  
+ input[type="submit"]{
+ 	border:none;
+ 	color:#123456;
+ 	background:transparent url(search-icon-md.png);
+ 	background-size:57px 57px;
+ 	background-position:6px 4px;
+ 	background-repeat:no-repeat;
+ 	height:66px;
+ 	width:66px;
+ }
 
   </style>
 </head>
@@ -50,67 +70,25 @@
 
 
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6">
-      <a class="btn btn-info btn-block" href="http://data.hdx.rwlabs.org"><h3>Data and Analysis</h3><img src="hdx_new_logo_accronym2.png" class="desaturate" alt="HDX" height="50px"></a>
+	<div class="row">
+	    <div class="col-lg-12">
+	    <div class="form-group">
+	    	<form action="http://data.hdx.rwlabs.org/search">
+	    	<input type="text" autocomplete="off" class="col-lg-6 col-lg-offset-3 input-lg" name="q">
+	    	<input type="submit" value="">
+	    	</form>
+	    </div>
+	    </div>
     </div>
-    <div class="col-md-6">
-      <a class="btn btn-info btn-block" href="http://www.humanitarianresponse.info"><h3>Operational Coordination</h3><img src="HR_Logo_April_2014_500px_smallmargin.png" class="desaturate" alt="HR.info"  height="50px"></a>
-    </div>
-  </div>
+
+<div class="row" style="height:300px">
 </div>
 
-<div class="container-fluid">
   <div class="row">
-    <div class="col-md-6">
-      <a class="btn btn-info btn-block" href="http://reliefweb.int"><h3>Reports and Media</h3><img src="reliefweb-logo-header.png" class="desaturate" alt="ReliefWeb" height="50px"></a>
-    </div>
-    <div class="col-md-6">
-      <a class="btn btn-info btn-block" href="http://www.inform-index.org/"><h3>Humanitarian Risk</h3><img src="inform_logo-01.png" class="desaturate" alt="INFORM" height="50px"></a>
+    <div class="col-lg-12">
+      <a href="http://data.hdx.rwlabs.org"><img src="hdx_new_logo_accronym2.png" class="center-block" alt="HDX" height="75px"></a>
     </div>
   </div>
-</div>
-
-<!-- 
-
-
-<div class="container-fluid">
-  <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
-     <a class="btn btn-info btn-block" href="http://data.hdx.rwlabs.org"><h3>Data and Analysis</h3><img src="hdx_new_logo_accronym2.png" class="desaturate" alt="HDX" height="50px"></a>
-  </div>
-  <div class="col-md-2"></div>
-  </div>
-
-  <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
-     <a class="btn btn-info btn-block" href="http://reliefweb.int"><h3>Reports and Media</h3><img src="reliefweb-logo-header.png" class="desaturate" alt="ReliefWeb" height="50px"></a>
-  </div>
-  <div class="col-md-2"></div>
-  </div>
-
-  <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
-     <a class="btn btn-info btn-block" href="http://www.humanitarianresponse.info"><h3>Operational Coordination</h3><img src="HR_Logo_April_2014_500px_smallmargin.png" class="desaturate" alt="HR.info"  height="50px"></a>
-  </div>
-  <div class="col-md-2"></div>
-  </div>
-
-  <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
-     <a class="btn btn-info btn-block" href="http://www.inform-index.org/"><h3>Humanitarian Risk</h3><img src="inform_logo-01.png" class="desaturate" alt="INFORM" height="50px"></a>
-  </div>
-  <div class="col-md-2"></div>
-  </div>  -->
-
-  <div class="row">
-  <h2><span style="letter-spacing:20px">OCHA</span>Information Services</h2>
-
-
 </div>
 
 
